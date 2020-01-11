@@ -26,6 +26,28 @@ package _12_fizz_buzz;
 **/
 
 public class FizzBuzz {
+	public static void main(String [] args) {
+		int mom = 1;
+for(int i = 0; i<20; i++) {
+	if(mom % 3 == 0 && mom % 5 == 0) {
+		System.out.println("fizzbuzz");
+	}
+	else	if(mom % 5 == 0) {
+			System.out.println("buzz");
 
+	}
+	else if(mom % 3 == 0) {
+		System.out.println("fizz");
+	}
+		else {
+			System.out.println(mom);
+		}
+		mom++;
 }
 
+
+
+
+
+}
+}
