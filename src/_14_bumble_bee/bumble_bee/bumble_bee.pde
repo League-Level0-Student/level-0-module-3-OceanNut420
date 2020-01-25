@@ -7,7 +7,12 @@ Use Modulo to make the colors alternate
 int mom = 0;
 for(int i = 0; i<34; i++){
   
+  mom = mom+10;
+  fill(255,241,129);
+  ellipse(mom,mom,50,50);
+  mom = mom+10;
 }
+drawBeeFace(340,340);
 }
 
 void drawFlower(int x, int y) {
